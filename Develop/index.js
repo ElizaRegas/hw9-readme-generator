@@ -7,7 +7,7 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "Enter your project name:",
+    message: "Enter your project name:"
   },
   {
     type: "input",
@@ -17,9 +17,14 @@ const questions = [
   // {
   //   type: "confirm",
   //   name: "tableOfContents",
-  //   message: "Would you like a table of contents?",
+  //   message: "Would you like a table of contents?"
   // }
-  // "Enter your installation instructions:",
+  {
+    type: "input",
+    name: "instructions",
+    message: "Enter your installation instructions:"
+  }
+  
   // "Enter your usage instructions:",
   // "Enter your credits:",
   // "Choose a license type:",
