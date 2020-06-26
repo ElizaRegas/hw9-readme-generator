@@ -1,5 +1,5 @@
 const fs = require("fs");
-const inquirer = require("inquirer");
+const inquirer = require("inquirer"); 
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
@@ -9,6 +9,7 @@ const questions = [
     name: "fullName",
     message: "Enter your FIRST and LAST NAME:"
   },
+  // title
   {
     type: "input",
     name: "title",
@@ -45,31 +46,30 @@ const questions = [
   // contributing
   {
     type: "input",
-    name: "contribution",
-    message: "Enter your CONTRIBUTION GUIDELINES:"
+    name: "contributing",
+    message: "Enter your GUIDELINES for CONTRIBUTING:"
   },
   // tests
   {
     type: "input",
     name: "testing",
-    message: "Enter testing instructions"
+    message: "Enter TESTING INSTRUCTIONS:"
   },
   //questions
   {
     type: "input",
     name: "githubName",
-    message: "Enter your github username:"
+    message: "Enter your GITHUB USERNAME:"
   },
   {
     type: "input",
     name: "email",
-    message: "Enter your email address:"
+    message: "Enter your EMAIL ADDRESS:"
   }
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-  // use fs package
   fs.writeFile("./readmeFiles/" + fileName, data, (err) => {
     if (err) {
       return console.log(err);
@@ -80,6 +80,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+  console.log("3");
   inquirer.prompt(questions).then((data) => {
     console.log(data);
     const markDown = generateMarkdown(data);
@@ -89,4 +90,3 @@ function init() {
 
 // function call to initialize program
 init();
-
