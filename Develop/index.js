@@ -21,6 +21,12 @@ const questions = [
     name: "description",
     message: "Enter your PROJECT DESCRIPTION:"
   },
+  //image
+  {
+    type: "input",
+    name: "image",
+    message: "Enter your IMAGE FILE NAME:"
+  },
   // installation
   {
     type: "input",
@@ -70,7 +76,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile("./readmeFiles/" + fileName, data, (err) => {
+  fs.writeFile(fileName, data, (err) => {
     if (err) {
       return console.log(err);
     }
@@ -80,9 +86,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-  console.log("3");
   inquirer.prompt(questions).then((data) => {
-    console.log(data);
     const markDown = generateMarkdown(data);
     writeToFile("README.md", markDown);
   });

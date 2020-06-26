@@ -16,6 +16,8 @@ ${badge}
 
 ${data.description}
 
+![${data.title}](./images/readme.png)
+
 ## Table of Contents
 
 * [Installation](#installation)

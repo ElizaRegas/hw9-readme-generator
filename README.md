@@ -6,6 +6,8 @@
 
 This was a homework assignment to meet the requirements of GA Tech's Full Stack Web Development Program. We were tasked with building a command-line application that dynamically generates a README.md file using node and npm packages. This README that you are currently reading was created with this generator.
 
+![My Project](./Develop/images/readme.png)
+
 ## Table of Contents
 
 * [Installation](#installation)

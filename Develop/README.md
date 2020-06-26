@@ -4,7 +4,9 @@
 
 ## Description
 
-Stuff here
+Stuff goes here
+
+![My Project](./images/readme.png)
 
 ## Table of Contents
 
@@ -19,11 +21,11 @@ Just do it
 
 ## Usage
 
-You'll know when you need it
+Very carefully
 
 ## License
 
-Copyright 2020 Elizabeth
+Copyright 2020 Elizabeth Regas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -37,11 +39,11 @@ Be awesome
 
 ## Tests
 
-Just do it
+No idea
 
 ## Questions
 
-Github Profile for Elizabeth:
+Github Profile for Elizabeth Regas:
 https://github.com/ElizaRegas
 
 Feel free to contact me with any questions:
