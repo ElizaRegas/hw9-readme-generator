@@ -45,25 +45,25 @@ const questions = [
   // contributing
   {
     type: "input",
-    name: "contribution",
-    message: "Enter your CONTRIBUTION GUIDELINES:"
+    name: "contributing",
+    message: "Enter your GUIDELINES for CONTRIBUTING:"
   },
   // tests
   {
     type: "input",
     name: "testing",
-    message: "Enter testing instructions"
+    message: "Enter TESTING INSTRUCTIONS:"
   },
   //questions
   {
     type: "input",
     name: "githubName",
-    message: "Enter your github username:"
+    message: "Enter your GITHUB USERNAME:"
   },
   {
     type: "input",
     name: "email",
-    message: "Enter your email address:"
+    message: "Enter your EMAIL ADDRESS:"
   }
 ];
 

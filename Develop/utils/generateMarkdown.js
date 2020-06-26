@@ -37,7 +37,11 @@ ${licenseText}
 
 ## Contributing
 
+${data.contributing}
+
 ## Tests
+
+${data.tests}
 
 ## Questions
 
