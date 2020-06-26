@@ -41,7 +41,7 @@ ${data.contributing}
 
 ## Tests
 
-${data.tests}
+${data.testing}
 
 ## Questions
 
