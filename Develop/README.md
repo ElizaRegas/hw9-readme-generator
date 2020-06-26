@@ -1,12 +1,12 @@
-`# A Helpful README Generator
+# My Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This was a homework assignment to meet the requirements of GA Tech's Full Stack Web Development Program. We were tasked with building a command-line application that dynamically generates a README.md file using node and npm packages. This README that you are currently reading was created with this generator.
+Stuff goes here
 
-![A Helpful README Generator](./images/readme.png)
+![My Project](./images/readme.png)
 
 ## Table of Contents
 
@@ -17,15 +17,15 @@ This was a homework assignment to meet the requirements of GA Tech's Full Stack 
 
 ## Installation
 
-First, fork the repo. Then, open the application in your code editor. Navigate to the correct folder, then run npm install. 
+Just do it
 
 ## Usage
 
-After the program has been installed, type 'node index.js' in your terminal. Answer the prompts, and enjoy your reasily generated README.md file!
+Very carefully
 
 ## License
 
-Copyright 2020 Eliza Regas
+Copyright 2020 Elizabeth Regas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -35,15 +35,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Contributing
 
-Contact the creator (for email and Github, see below) for information on contribution.
+Be awesome
 
 ## Tests
 
-There are no testing instructions at this time.
+No idea
 
 ## Questions
 
-Github Profile for Eliza Regas:
+Github Profile for Elizabeth Regas:
 https://github.com/ElizaRegas
 
 Feel free to contact me with any questions:
