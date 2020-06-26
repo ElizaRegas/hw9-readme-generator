@@ -9,6 +9,7 @@ const questions = [
     name: "fullName",
     message: "Enter your FIRST and LAST NAME:"
   },
+  // title
   {
     type: "input",
     name: "title",
@@ -69,7 +70,6 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  // use fs package
   fs.writeFile("./readmeFiles/" + fileName, data, (err) => {
     if (err) {
       return console.log(err);
@@ -89,4 +89,3 @@ function init() {
 
 // function call to initialize program
 init();
-
