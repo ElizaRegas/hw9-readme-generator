@@ -2,10 +2,11 @@ const licenseObj = require("./licenses.json");
 // function to generate markdown for README
 function generateMarkdown(data) {
   const year = new Date().getFullYear();
-  console.log(year);
+  const name = data.fullName;
   const badge = licenseObj[data.license[0]].badge;
   let licenseText = licenseObj[data.license[0]].licenseText; 
   licenseText = licenseText.replace("<YEAR>", year);
+  licenseText = licenseText.replace("<OWNER>", name);
   
   return `# ${data.title}
 
@@ -40,12 +41,13 @@ ${licenseText}
 
 ## Questions
 
+Github Profile for ${data.fullName}:
+https://github.com/${data.githubName}
 
-
-
+Feel free to contact me with any questions:
+${data.email}
 
 `;
-
 }
 
 module.exports = generateMarkdown;

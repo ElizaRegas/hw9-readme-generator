@@ -7,36 +7,36 @@ const questions = [
   {
     type: "input",
     name: "fullName",
-    message: "Enter your first and last name:"
-  }
+    message: "Enter your FIRST and LAST NAME:"
+  },
   {
     type: "input",
     name: "title",
-    message: "Enter your project name:"
+    message: "Enter your PROJECT TITLE:"
   },
   // description
   {
     type: "input",
     name: "description",
-    message: "Enter your project description:"
+    message: "Enter your PROJECT DESCRIPTION:"
   },
   // installation
   {
     type: "input",
     name: "installation",
-    message: "Enter your installation instructions:"
+    message: "Enter your INSTALLATION INSTRUCTIONS:"
   },
   // usage
   {
     type: "input",
     name: "usage",
-    message: "Enter your usage instructions:"
+    message: "Enter your USAGE INSTRUCTIONS:"
   },
   // license
   {
     type: "checkbox",
     name: "license",
-    message: "Choose a license type:",
+    message: "Choose a LICENSE TYPE:",
     choices: [
       "MIT",
       "ISC"
@@ -45,20 +45,27 @@ const questions = [
   // contributing
   {
     type: "input",
-    name: "credits",
-    message: "Enter your contribution guidelines:"
+    name: "contribution",
+    message: "Enter your CONTRIBUTION GUIDELINES:"
   },
   // tests
   {
     type: "input",
     name: "testing",
     message: "Enter testing instructions"
-  }
+  },
   //questions
+  {
+    type: "input",
+    name: "githubName",
+    message: "Enter your github username:"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Enter your email address:"
+  }
 ];
-
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -82,3 +89,4 @@ function init() {
 
 // function call to initialize program
 init();
+
